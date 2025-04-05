@@ -17,8 +17,8 @@ public class Main {
         BoxWeight box1=new BoxWeight(1,2,3,5);
         System.out.println(box1.l);
         System.out.println(box1.weight);
-
-        System.out.println(weight.newmethod());
+        int j=weight.newmethod();
+        System.out.println(j);
         Box box3=new BoxWeight(12, 13, 14, 15);
         System.out.println(box3.l+" "+box3.b+" "+box3.w);
     }

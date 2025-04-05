@@ -12,7 +12,7 @@ public class BoxWeight extends Box{
     //     super(other);
     //     this.weight=weight;
     // }
-    public static int newmethod(){
+    public int newmethod(){
         int n=funpro();;
         return n;
     }

@@ -5,9 +5,9 @@ public class Box {
     int b;
     int w;
     Box(){
-        this.l=l;
-        this.w=w;
-        this.b=b;
+        this.l=-1;
+        this.w=-1;
+        this.b=-1;
     }  
     Box(int side){
         this.l=side;
@@ -15,7 +15,7 @@ public class Box {
         this.w=side;
     }
     Box(Box old){
-        this.l=old.l;
+        this.l=2*old.l;
         this.b=old.b;
         this.w=old.w;
     }
