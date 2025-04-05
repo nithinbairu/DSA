@@ -7,10 +7,12 @@ public class Prefix_of_Array_String {
         sc.nextLine(); // Consume the leftover newline
         
         if (n <= 0) return -1; // Handle edge case of no strings
+        int min1=10;
         
         String[] s = new String[n];
         for (int i = 0; i < n; i++) {
             s[i] = sc.nextLine();
+            if(s[i].length()<min1) min1=s[i].length();
         }
 
         if (n == 1) return s[0].length(); // Single string: full length is prefix

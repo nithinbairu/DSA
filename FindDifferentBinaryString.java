@@ -19,5 +19,21 @@ public class FindDifferentBinaryString {
     public static void main(String[] args) {
         String[] nums = {"00", "01"};
         System.out.println(findDifferentBinaryString(nums)); // Expected Output: "10" or "11"
+        System.out.println((char)98);
+        int n = 30;
+        String p = "";
+        int i = 0;
+
+        while (i <n) {
+            if (i % 2 == 0) {
+                p = (char) (97 + (i % 26)) + p;
+                
+            } else {
+                p = p + (char) (97 + (i % 26));
+            }
+            i++; // Increment i to avoid infinite loop
+        }
+
+        System.out.println(p);
     }
 }
