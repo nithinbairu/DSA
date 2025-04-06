@@ -1,4 +1,4 @@
-package pakages;
+package Inheritence;
 
 public class Main {
     int i;

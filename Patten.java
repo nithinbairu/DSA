@@ -19,6 +19,7 @@ public class Patten {
                 }
             }
             System.out.println();
+            k.close();
         }
     }
 }
